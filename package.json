@@ -2,7 +2,9 @@
   "name": "my-presentation",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hangnhat57.github.io/tdd",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "spectacle-code-slide": "^0.5.1",
@@ -10,6 +12,8 @@
     "webpack": "^3.10.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

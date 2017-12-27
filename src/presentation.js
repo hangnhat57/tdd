@@ -86,7 +86,7 @@ export default class Presentation extends React.Component {
           </Heading>
           <br></br>
           <Image
-          style="  width: 730px;
+          style= "width= 730px;
           height: 460px;"
           src='http://sv1.upsieutoc.com/2017/12/27/tdd1.png'/>
         </Slide>
